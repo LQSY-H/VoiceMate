@@ -485,6 +485,11 @@ python app\server.py
 - 验证清单和常见故障的判定方法。
 
 如果你的 AI 工具支持 `AGENTS.md`（Codex、Cursor、Claude Code 等），它会自动读到。
+另外还放了两份摘要入口，方便只认特定文件名的工具：
+
+- [`CLAUDE.md`](CLAUDE.md) —— Claude Code
+- [`.github/copilot-instructions.md`](.github/copilot-instructions.md) —— GitHub Copilot
+
 接口细节在 [`docs/API.md`](docs/API.md)。
 
 ---
