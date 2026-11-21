@@ -1,0 +1,13 @@
+# 模型与二进制太大，不随仓库提供
+app/models/*.gguf
+app/bin/*.exe
+app/bin/*.dll
+runtime/
+
+# 个人数据
+app/voices/*.breeze
+
+# 运行时产物
+app/breeze-server.log
+__pycache__/
+*.pyc

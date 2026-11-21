@@ -1,0 +1,13 @@
+# 统一换行：源码用 LF
+* text=auto eol=lf
+
+# .bat 必须原样保存 CRLF（cmd 对 LF 很敏感），所以当二进制处理，别让 git 转换
+*.bat -text
+*.cmd -text
+
+# 二进制
+*.png binary
+*.ico binary
+*.gguf binary
+*.exe binary
+*.dll binary
